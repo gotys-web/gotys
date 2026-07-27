@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theyanki1.github.io/gotys/sitemap.xml
