@@ -12,7 +12,7 @@ export const Route = createFileRoute("/sekani-travy")({
       { name: "description", content: "Sekání trávy pro obce, firmy a solární elektrárny. Mulčovací sekačka, křovinořez, pojezdová sekačka. FVE od 0,60 Kč/m²." },
       { property: "og:title", content: "Sekání trávy: obce, firmy, FVE | GOTYŠ" },
       { property: "og:description", content: "Od obecních trávníků po solární elektrárny. 720 regulačních stanic GasNet." },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/sekani-travy" },
+      { property: "og:url", content: "https://gotys.cz/sekani-travy" },
     ],
     links: [{ rel: "canonical", href: "/sekani-travy" }],
     scripts: [
@@ -45,8 +45,8 @@ export const Route = createFileRoute("/sekani-travy")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://theyanki1.github.io/gotys/" },
-            { "@type": "ListItem", position: 2, name: "Sekání a mulčování trávy", item: "https://theyanki1.github.io/gotys/sekani-travy" },
+            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://gotys.cz/" },
+            { "@type": "ListItem", position: 2, name: "Sekání a mulčování trávy", item: "https://gotys.cz/sekani-travy" },
           ],
         }),
       },

@@ -8,7 +8,7 @@ export const Route = createFileRoute("/kontakt")({
       { title: "Kontakt: Petr Gottvald, GOTYŠ Vyškov" },
       { name: "description", content: "Petr Gottvald, GOTYŠ, Kpt. Otakara Jaroše 10, 682 01 Vyškov. GSM 776 155 602. E-mail gotys@seznam.cz. IČ 68727224." },
       { property: "og:title", content: "Kontakt | GOTYŠ" },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/kontakt" },
+      { property: "og:url", content: "https://gotys.cz/kontakt" },
     ],
     links: [{ rel: "canonical", href: "/kontakt" }],
     scripts: [
@@ -18,8 +18,8 @@ export const Route = createFileRoute("/kontakt")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://theyanki1.github.io/gotys/" },
-            { "@type": "ListItem", position: 2, name: "Kontakt", item: "https://theyanki1.github.io/gotys/kontakt" },
+            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://gotys.cz/" },
+            { "@type": "ListItem", position: 2, name: "Kontakt", item: "https://gotys.cz/kontakt" },
           ],
         }),
       },

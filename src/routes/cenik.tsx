@@ -8,7 +8,7 @@ export const Route = createFileRoute("/cenik")({
       { title: "Ceník: rizikové kácení, mulčování náletů, sekání trávy | GOTYŠ" },
       { name: "description", content: "Orientační ceník služeb GOTYŠ. Přesnou cenu určíme z fotografií nezávazně a do 24 hodin." },
       { property: "og:title", content: "Ceník | GOTYŠ" },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/cenik" },
+      { property: "og:url", content: "https://gotys.cz/cenik" },
     ],
     links: [{ rel: "canonical", href: "/cenik" }],
     scripts: [
@@ -18,8 +18,8 @@ export const Route = createFileRoute("/cenik")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://theyanki1.github.io/gotys/" },
-            { "@type": "ListItem", position: 2, name: "Ceník", item: "https://theyanki1.github.io/gotys/cenik" },
+            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://gotys.cz/" },
+            { "@type": "ListItem", position: 2, name: "Ceník", item: "https://gotys.cz/cenik" },
           ],
         }),
       },

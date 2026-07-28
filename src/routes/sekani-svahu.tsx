@@ -11,7 +11,7 @@ export const Route = createFileRoute("/sekani-svahu")({
       { name: "description", content: "Profesionální sečení svahů, náspů a těžko dostupného terénu. Křovinořez, speciální technika, bezpečná práce ve sklonech." },
       { property: "og:title", content: "Sekání svahů | GOTYŠ" },
       { property: "og:description", content: "Sečení svahů, náspů a těžkého terénu, kam se běžná technika nedostane." },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/sekani-svahu" },
+      { property: "og:url", content: "https://gotys.cz/sekani-svahu" },
     ],
     links: [{ rel: "canonical", href: "/sekani-svahu" }],
     scripts: [
@@ -44,8 +44,8 @@ export const Route = createFileRoute("/sekani-svahu")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://theyanki1.github.io/gotys/" },
-            { "@type": "ListItem", position: 2, name: "Sekání svahů a těžkého terénu", item: "https://theyanki1.github.io/gotys/sekani-svahu" },
+            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://gotys.cz/" },
+            { "@type": "ListItem", position: 2, name: "Sekání svahů a těžkého terénu", item: "https://gotys.cz/sekani-svahu" },
           ],
         }),
       },

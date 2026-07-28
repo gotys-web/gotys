@@ -22,7 +22,7 @@ export const Route = createFileRoute("/reference")({
       { title: "Reference: GasNet, NP Šumava, Habsburkové | GOTYŠ" },
       { name: "description", content: "Vybrané realizace: 720 regulačních stanic GasNet, 1 100 stromů v NP Šumava, kácení pro Habsburky v Klagenfurtu." },
       { property: "og:title", content: "Reference | GOTYŠ" },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/reference" },
+      { property: "og:url", content: "https://gotys.cz/reference" },
     ],
     links: [{ rel: "canonical", href: "/reference" }],
     scripts: [
@@ -32,8 +32,8 @@ export const Route = createFileRoute("/reference")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://theyanki1.github.io/gotys/" },
-            { "@type": "ListItem", position: 2, name: "Reference", item: "https://theyanki1.github.io/gotys/reference" },
+            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://gotys.cz/" },
+            { "@type": "ListItem", position: 2, name: "Reference", item: "https://gotys.cz/reference" },
           ],
         }),
       },

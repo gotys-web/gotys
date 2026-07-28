@@ -14,7 +14,7 @@ export const Route = createFileRoute("/rizikove-kaceni")({
       { name: "description", content: "Rizikové kácení stromů u budov, elektrického vedení a na hřbitovech. Lezecká technika, plošina, jeřáb. Cena od 1 500 Kč/strom." },
       { property: "og:title", content: "Rizikové kácení stromů | GOTYŠ" },
       { property: "og:description", content: "Kácíme stromy, na které si nikdo jiný netroufne. 31 let praxe, pojištění 3,5 mil. Kč." },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/rizikove-kaceni" },
+      { property: "og:url", content: "https://gotys.cz/rizikove-kaceni" },
     ],
     links: [{ rel: "canonical", href: "/rizikove-kaceni" }],
     scripts: [
@@ -58,8 +58,8 @@ export const Route = createFileRoute("/rizikove-kaceni")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://theyanki1.github.io/gotys/" },
-            { "@type": "ListItem", position: 2, name: "Rizikové kácení stromů", item: "https://theyanki1.github.io/gotys/rizikove-kaceni" },
+            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://gotys.cz/" },
+            { "@type": "ListItem", position: 2, name: "Rizikové kácení stromů", item: "https://gotys.cz/rizikove-kaceni" },
           ],
         }),
       },

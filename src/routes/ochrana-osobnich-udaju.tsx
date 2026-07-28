@@ -5,7 +5,7 @@ export const Route = createFileRoute("/ochrana-osobnich-udaju")({
     meta: [
       { title: "Ochrana osobních údajů | GOTYŠ" },
       { name: "description", content: "Zásady zpracování osobních údajů GOTYŠ, Petr Gottvald, Vyškov." },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/ochrana-osobnich-udaju" },
+      { property: "og:url", content: "https://gotys.cz/ochrana-osobnich-udaju" },
       { name: "robots", content: "noindex" },
     ],
     links: [{ rel: "canonical", href: "/ochrana-osobnich-udaju" }],

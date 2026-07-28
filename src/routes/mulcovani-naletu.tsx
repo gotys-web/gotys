@@ -14,7 +14,7 @@ export const Route = createFileRoute("/mulcovani-naletu")({
       { name: "description", content: "Zarostlý pozemek vyčistíme mulčovačem bez bagrů, pálení a odvozu odpadu. Vyřezání náletů, likvidace klestí, odlesnění náročných terénů." },
       { property: "og:title", content: "Mulčování náletů a čištění pozemků | GOTYŠ" },
       { property: "og:description", content: "Zarostlý pozemek vyčistíme na jeden průjezd. Bez pálení a odvozu." },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/mulcovani-naletu" },
+      { property: "og:url", content: "https://gotys.cz/mulcovani-naletu" },
     ],
     links: [{ rel: "canonical", href: "/mulcovani-naletu" }],
     scripts: [
@@ -47,8 +47,8 @@ export const Route = createFileRoute("/mulcovani-naletu")({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://theyanki1.github.io/gotys/" },
-            { "@type": "ListItem", position: 2, name: "Mulčování náletů a čištění pozemků", item: "https://theyanki1.github.io/gotys/mulcovani-naletu" },
+            { "@type": "ListItem", position: 1, name: "GOTYŠ", item: "https://gotys.cz/" },
+            { "@type": "ListItem", position: 2, name: "Mulčování náletů a čištění pozemků", item: "https://gotys.cz/mulcovani-naletu" },
           ],
         }),
       },

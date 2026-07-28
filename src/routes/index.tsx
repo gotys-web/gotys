@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "GOTYŠ, Petr Gottvald | Rizikové kácení, mulčování náletů, sekání trávy" },
       { name: "description", content: "31 let praxe. Rizikové kácení stromů, mulčování náletů, sekání trávy. Vyškov, Brno, Jihomoravský kraj." },
-      { property: "og:url", content: "https://theyanki1.github.io/gotys/" },
+      { property: "og:url", content: "https://gotys.cz/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
   }),

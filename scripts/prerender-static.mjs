@@ -11,7 +11,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
 const clientDir = join(root, "dist", "client");
-const base = "/gotys"; // must match tanstackStart.router.basepath in vite.config.ts
+const base = ""; // must match tanstackStart.router.basepath in vite.config.ts
 const port = 4173;
 
 const routes = [
