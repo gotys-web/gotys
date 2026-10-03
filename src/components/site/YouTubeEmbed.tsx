@@ -11,7 +11,7 @@ export function YouTubeEmbed({ id, title }: Props) {
   if (loaded) {
     return (
       <iframe
-        className="w-full h-full"
+        className="block w-full h-full"
         src={`https://www.youtube.com/embed/${id}?autoplay=1`}
         title={title}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -25,7 +25,7 @@ export function YouTubeEmbed({ id, title }: Props) {
       type="button"
       onClick={() => setLoaded(true)}
       aria-label={`Přehrát video: ${title}`}
-      className="relative w-full h-full group"
+      className="relative block w-full h-full group"
     >
       <img
         src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`}

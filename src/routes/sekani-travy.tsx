@@ -109,7 +109,7 @@ function SekaniTravy() {
       </Section>
 
       <Section title="Rákos 2,5 m? Není problém">
-        <div className="grid sm:grid-cols-2 gap-4 max-w-4xl">
+        <div className="grid md:grid-cols-3 gap-4">
           {[
             { id: "Q94rG-9MK90", title: "Sekání trávy | GOTYŠ" },
             { id: "tpJorHoJaCc", title: "Sekání trávy, další ukázka | GOTYŠ" },

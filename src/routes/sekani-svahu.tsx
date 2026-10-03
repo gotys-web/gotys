@@ -108,7 +108,7 @@ function SekaniSvahu() {
       </Section>
 
       <Section title="Video z praxe">
-        <div className="grid sm:grid-cols-2 gap-4 max-w-4xl">
+        <div className="grid md:grid-cols-3 gap-4">
           {[
             { id: "Y_AtpS_BMNs", title: "Sekání svahů | GOTYŠ" },
             { id: "6LjthiLKzWM", title: "Sekání svahů, další ukázka | GOTYŠ" },

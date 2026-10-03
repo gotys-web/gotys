@@ -99,7 +99,7 @@ function LesniFreza() {
       </Section>
 
       <Section title="Video z praxe">
-        <div className="grid sm:grid-cols-2 gap-4 max-w-4xl">
+        <div className="grid md:grid-cols-3 gap-4">
           {[
             { id: "gxm56WmaJxE", title: "Mulčování náletů | GOTYŠ" },
             { id: "L_TNkkOx7hg", title: "Mulčování náletů, další ukázka | GOTYŠ" },

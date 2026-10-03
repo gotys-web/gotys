@@ -126,8 +126,9 @@ function RizikoveKaceni() {
       </Section>
 
       <Section title="Video z praxe">
-        <div className="grid sm:grid-cols-2 gap-4 max-w-4xl">
+        <div className="grid md:grid-cols-3 gap-4">
           {[
+            { id: "NurYtOkt1Hg", title: "Rizikové kácení | GOTYŠ" },
             { id: "s2xfKx4GgYs", title: "Rizikové kácení stromů | GOTYŠ" },
             { id: "vV4B7iGcrGo", title: "Rizikové kácení stromů, další ukázka | GOTYŠ" },
           ].map((v) => (
